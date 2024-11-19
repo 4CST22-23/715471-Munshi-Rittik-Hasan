@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    height: 100vh;
+    background-image: url(photo/peter-broomfield-m3m-lnR90uM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.back a{
+    background-color: bisque;
+    text-decoration: none;
+    color: steelblue;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.back a:hover{
+    background-color: antiquewhite;
+    color: darkslategray;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid aliceblue;
+    gap: 25px;
+    padding: 30px;
+    text-align: center;
+    width: 500px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.form h1{
+    text-align: left;
+    font-family: cursive;
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.form input{
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border: 3px solid silver;
+    border-radius: 10px;
+    color: aliceblue;
+    outline: none;
+    background-color: transparent;
+}
+
+.name{
+    display: flex;
+    gap: 10px;
+}
+.name input{
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border: 3px solid silver;
+    border-radius: 10px;
+    color: aliceblue;
+    outline: none;
+    background-color: transparent;
+}
+
+.checkbox{
+    margin: 10px 0 20px 0;
+    font-family: Helvetica;
+    color: aliceblue;
+}
+
+
+.form a{
+    width: 200px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 26px;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    color: dimgray;
+    border-radius: 10px;
+    padding: 5px 40px;
+}
+.form a:hover{
+    transition: 0.5s;
+    background-color: transparent;
+    color: aliceblue;
+}
